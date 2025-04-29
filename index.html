@@ -12,22 +12,32 @@ Select ONE Additional
 [ no ] Feature 4 - Include Logical Operators && or || 
 -->
 
-
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width" />
-    <title>Unit 9 Project</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/processing.js/1.6.6/processing.min.js"></script>
-    <style></style>
-  </head>
+    <title>Magic 8 Ball</title>
+    <style>
+      body {
+        background-color: lightblue;
+        text-align: center;
+        font-family: Arial;
+      }
 
+      h1 {
+        color: navy;
+      }
+
+      p {
+        font-size: 18px;
+        color: lavender;
+      }
+    </style>
+  </head>
   <body>
     <h1>Magic 8 Ball</h1>
-    <canvas id="myCanvas" data-processing-sources="myP5Code.pde"> </canvas>
+    <p>Click on the canvas for your answer!</p>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.js"></script>
+    <script src="myP5Code.pde"></script>
   </body>
 </html>
-
-<!--- Taken From Khan Academy Intro to JS: Drawing & Animation --->
